@@ -4,7 +4,6 @@
 - containerd
 - runc
 - cni plugin
-- calico
 
 ## usage
 
@@ -25,4 +24,3 @@ ansible-playbook playbooks/setup.yml --ask-become-pass
 - [Install containerd](https://github.com/containerd/containerd/blob/main/docs/getting-started.md)
 - [Setup containerd](https://kubernetes.io/ja/docs/setup/production-environment/container-runtimes/#containerd)
 - [Install kubeadm](https://kubernetes.io/ja/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-- [Install calico](https://docs.tigera.io/calico/latest/getting-started/kubernetes/quickstart#step-2-install-calico)
