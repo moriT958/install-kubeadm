@@ -1,0 +1,8 @@
+---
+- name: Setup Kubernetes nodes
+  hosts: target
+  become: true
+  roles:
+    - common
+    - containerd
+    - kubernetes

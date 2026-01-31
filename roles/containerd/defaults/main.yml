@@ -1,0 +1,5 @@
+---
+containerd_version: "2.2.1"
+runc_version: "1.4.0"
+cni_plugins_version: "1.9.0"
+containerd_sandbox_image: "registry.k8s.io/pause:3.10"
